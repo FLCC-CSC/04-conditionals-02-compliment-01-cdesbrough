@@ -14,15 +14,14 @@
 
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
-response = input("Would you like a compliment? : ").lower()
+print("Would you like a compliment?")
+answer = input().lower()
 
-if response in ["no", "n"]:
-    print("Thank you for playing.")
-elif response in ["yes", "y"]:
-    print("You have wonderful eyes.")
-    print("Thank you for playing.")
+if answer == "yes":
+    print("You have wonderful eyes")
+    
 else:
-    print("Please answer with yes or no.")
+    print("Thank you for playing")
 
 
 
