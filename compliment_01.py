@@ -14,9 +14,13 @@
 
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
-repsonse = input('Would you like a compliment? :')
-if repsonse.lower()== 'no':
- print('Thank you for playing')
+response = input('Would you like a compliment? : ')
+if response.lower() == 'yes':
+    print('You have wonderful eyes.')
+elif response.lower() == 'no':
+    print('Thank you for playing.')
+else:
+    print('Please answer with "yes" or "no".')
 
 
 
