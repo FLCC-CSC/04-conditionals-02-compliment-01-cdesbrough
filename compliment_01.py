@@ -14,12 +14,11 @@
 
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
-response = input('Would you like a compliment? ')
+response = input('Would you like a compliment? :')
 if response.lower() == 'yes':
     print('You have wonderful eyes.')
     print('Thank you for playing.')
-if response.lower() == 'no':
-    print('Thank you for playing.')
+
 
 
 
