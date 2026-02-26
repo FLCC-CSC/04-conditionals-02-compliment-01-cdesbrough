@@ -14,10 +14,11 @@
 
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
-response = input('Would you like a compliment? : ')
+response = input('Would you like a compliment? ')
 if response.lower() == 'yes':
     print('You have wonderful eyes.')
-elif response.lower() == 'no':
+    print('Thank you for playing.')
+if response.lower() == 'no':
     print('Thank you for playing.')
 
 
@@ -74,8 +75,7 @@ Thank you for playing.
 
 
 2. What was the hardest part of this lab?
-# Remembering to remove * lower() * to be able to input "Yes"
-
+# Repeating the repsonses
 
 
 
