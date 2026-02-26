@@ -19,8 +19,7 @@ if response.lower() == 'yes':
     print('You have wonderful eyes.')
 elif response.lower() == 'no':
     print('Thank you for playing.')
-else:
-    print('Please answer with "yes" or "no".')
+
 
 
 
