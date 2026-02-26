@@ -15,24 +15,12 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 response = input("Would you like a compliment? ")
-if response.lower() == "yes":
-    print("You have wonderful eyes.")
-    print("Thank you for playing.")
-
-
-response = input("Would you like a compliment? ")
-if response.lower() == "yes" or response == "y":
-    print("Thank you for playing.")
-
-
-response = input("Would you like a compliment? ")
-if response == "Yes":
-    print("Thank you for playing.")
-
-
-response = input("Would you like a compliment? ")
 if response.lower() == "no":
-    print("Thank you for playing.")
+ print("Thank you for playing.")
+
+
+
+
 
 ########### END YER CODE ABOVE THIS LINE ###########
 
