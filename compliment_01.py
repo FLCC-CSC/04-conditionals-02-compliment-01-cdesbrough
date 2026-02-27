@@ -16,7 +16,7 @@
 ########## ENTER YER CODE BELOW THIS LINE ##########
 response = input("Would you like a compliment? ").strip()
 
-if response in ["yes", "y", "Yes"]:
+if response == "yes" or response == "y":
     print("You have wonderful eyes.")
 
 print("Thank you for playing.")
