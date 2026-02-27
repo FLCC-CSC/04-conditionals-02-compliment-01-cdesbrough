@@ -14,30 +14,12 @@
 
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
-response = input("Would you like a compliment? ")
-if response.lower() == "yes":
+response = input("Would you like a compliment? ").strip()
+
+if response in ["yes", "y", "Yes"]:
     print("You have wonderful eyes.")
-    print("Thank you for playing.")
 
-
-response = input("Would you like a compliment? ")
-if response.lower() == "yes" or response == "y":
- print("Thank you for playing.")
-
-
-response = input("Would you like a compliment? ")
-if response == "Yes":
- print("Thank you for playing.")
-
-
-response = input("Would you like a compliment? ")
-if response.lower() == "no":
- print("Thank you for playing.")
-
-
-response = input("Would you like a compliment? ")
-if response == "no" or response == "N":
- print("Thank you for playing.")
+print("Thank you for playing.")
 
 
 
