@@ -72,8 +72,7 @@ Thank you for playing.
 
 
 2. What was the hardest part of this lab?
-# Repeating the repsonses
-
+# Realizing "if response == "yes": Controls input for (yes, YES, y, no, n)
 
 
 
